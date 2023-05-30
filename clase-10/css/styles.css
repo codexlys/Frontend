@@ -1,0 +1,146 @@
+body {
+    margin:0px;
+}
+footer {
+    background-color: #00669F;
+    height: 8vh;
+    max-width: 100%;
+}
+.card-button {
+    display: block;
+    background-color: #00669F;
+    padding: 1em 2em;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin: 3em 5em 1em 5em;
+    font-family: 'Roboto', sans-serif;
+}
+.card-heroe {
+    display: inline-block;
+    width: 27%;
+    height: auto;
+    margin: 1em;
+    position: relative;
+    background-color: #F3F3F3;
+    border-radius: 17px 17px 0px 0px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.card-text {
+    margin: 1.5em;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    line-height: 19px;
+}
+.card-title {
+    text-align: center;
+    margin-top: 2em;
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+}
+.corazon {
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    transform: rotate(-45deg);
+    background-color: #CC2424;
+    top: 1em;
+    right: 0;
+    left: 1em;
+}
+.corazon::before,
+.corazon::after {
+    content: "";
+    position: absolute;
+    background-color: #CC2424;
+}
+.corazon::before {
+    border-radius: 20px 20px 0 0;
+    width: 17px;
+    height: 11px;
+    top: -10px;
+    left: 0px;
+}
+.corazon::after {
+    border-radius: 0 20px 20px 0px;
+    width: 11px;
+    height: 17px;
+    top: 0px;
+    left: 16px;
+}
+.photo {
+    border-radius: 50%;
+    background-color: white;
+    width: 119px;
+    height: 18vh;
+    position: absolute;
+    background-size: cover;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 110px;
+}
+.photo-batman {
+    background-image: url(../img//photo-batman.png);
+}
+.photo-harley {
+    background-image: url(../img//photo-harley.png);
+}
+.fondo {
+    height: 27vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fondo-batman {
+    background-image: url(../img/fondo-batman.png);
+}
+.fondo-harley {
+    background-image: url(../img/fondo-harley.png);
+}
+.header-descuento {
+    background-color: #1CD1B0;
+    height: 6vh;
+    max-width: 100%;
+}
+.section-card {
+    margin: 7em 0px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sticky {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.text-descuento {
+    font-weight: 400;
+    font-size: 15px;
+    display: block;
+    padding: 10px 0px 10px 27px;
+    font-family: 'Roboto', sans-serif;
+}
+.text-title {
+    display: block;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 46.88px;
+    padding: 28px 0px 26px 28px;
+    font-family: 'Roboto', sans-serif;
+}
+.text-footer {
+    color: #FFF9F9;
+    display: block;
+    padding: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+.title {
+    background-color: #00669F;
+    box-sizing: border-box;
+    height: 15vh;
+    max-width: 100%;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
